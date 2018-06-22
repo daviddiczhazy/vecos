@@ -1,0 +1,35 @@
+h1 {
+	font: {
+		family: 'Libre Baskerville', serif;
+		size: 3em;
+	}
+}
+
+.navbar{
+ background:#F97300;
+}
+.nav-link , .navbar-brand{
+ color: #f4f4f4;
+ cursor: pointer;
+}
+.nav-link{
+ margin-right: 2em !important;
+}
+.nav-link:hover{
+ background: #f4f4f4;
+ color: #f97300;
+}
+.navbar-collapse{
+ justify-content: flex-end;
+}
+.navbar-toggler{
+  background:#fff !important;
+}
+
+.header{
+	height: 400px;
+ background-image: url('../img/whyFlat.jpg');
+ background-position: center ;
+ //background-attachment: fixed;
+ background-size: cover;
+}

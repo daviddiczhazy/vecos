@@ -1,0 +1,45 @@
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+.group:before,
+.group:after {
+	content: " ";
+	display: table;
+}
+
+.group:after {
+	clear: both;
+}
+
+.group {
+	*zoom: 1;
+}
+body {
+	font: {
+		family: 'Lato', sans-serif;
+		size: 100%;
+	}
+	line-height: 1.5;
+}
+
+img {
+	max-width: 100%;
+	vertical-align: middle;
+	height: auto;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.content {
+	max-width: 1080px;
+	margin: 0 auto;
+}
+
+@import '_general.scss';
