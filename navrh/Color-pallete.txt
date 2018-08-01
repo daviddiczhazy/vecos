@@ -1,0 +1,5 @@
+$color-main1: #7cdeff
+$color-main2: #6db8ff
+$color-main3: #5e91ff
+$color-main4: #4c67ff
+$color-main5: #444eff;
