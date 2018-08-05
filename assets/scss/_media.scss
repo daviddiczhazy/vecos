@@ -1,0 +1,74 @@
+
+@media (max-width: 1080px) {
+
+.head {
+ background-image: url('../img/responsive-m-upd.jpg');
+}
+.vecos-description h1 {
+	font-size: 4.5rem;
+}
+}
+
+@media (max-width: 992px) {
+
+.blog .card-body {
+	padding: .5rem;
+}
+
+.card {
+	height: 420px;
+}
+}
+
+@media (max-width: 767px) {
+
+.head {
+ height: 480px;
+ background-image: url('../img/responsive-s-upd.jpg');
+}
+
+.overlay {
+	height: 480px;
+}
+
+.vecos-description h1 {
+	font-size: 3.25rem;
+}
+
+.vecos-description p {
+	font-size: 1.2rem;
+}
+
+.vecos-description {
+	top: 5.5rem;
+}
+
+.btn {
+	font-size: 1rem;
+}
+
+.about-icon {
+	border: none;
+}
+
+.blog .card-body {
+	padding: 1rem;
+}
+
+.card {
+	height: 320px;
+}
+
+.portfolio img {
+	margin: 1rem 0;
+	height: auto;
+}
+}
+
+
+
+@media (min-width: 576px) {
+.modal-dialog {
+    margin: 5rem auto;
+}
+}

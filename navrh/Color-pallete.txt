@@ -3,3 +3,6 @@ $color-main2: #6db8ff
 $color-main3: #5e91ff
 $color-main4: #4c67ff
 $color-main5: #444eff;
+
+
+#085070  .... #043D56 .... #023042 ..... #022430 .... #00151D

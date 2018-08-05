@@ -19,10 +19,8 @@ html {
 	*zoom: 1;
 }
 body {
-	font: {
-		family: 'Lato', sans-serif;
-		size: 100%;
-	}
+	font-family: 'Open Sans', sans-serif;
+	font-size: 100%;
 	line-height: 1.5;
 }
 
@@ -42,6 +40,21 @@ a:hover {
 	text-decoration: none;
 }
 
+h1 {
+	font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+	font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+	font-family: 'Roboto', sans-serif;
+}
+h4 {
+	font-family: 'Roboto', sans-serif;
+}
+
 .content {
 	max-width: 1080px;
 	margin: 0 auto;
@@ -57,4 +70,6 @@ a:hover {
 
 @import '_variables.scss';
 @import '_general.scss';
-
+@import '_footer.scss';
+@import '_cennik.scss';
+@import '_media.scss';

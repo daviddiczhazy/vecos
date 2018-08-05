@@ -1,0 +1,40 @@
+.cennik {
+	background: $color-bg-cennik;
+}
+.vecos-cennik {
+	background: $main-color;
+	h1 {
+		color: $text-color-title;
+		margin: .5rem 0;
+	}
+}
+
+.vecos-web {
+	background: $color-main2;
+	padding: 2rem 0;
+	h2 {
+		margin: .5rem 0 1rem 0;
+	}
+}
+
+.table {
+	margin-bottom: 0;
+}
+
+.vecos-table-head {
+	text-transform: uppercase;
+	font-size: 1.15rem;
+	padding-left: 3rem !important;
+}
+
+.vecos-table-info {
+	font-size: .9rem;
+}
+
+.vecos-dodatok {
+	background: $main-color;
+	padding: 2rem 0;
+	h2 {
+		margin: .5rem 0 1rem 0;
+	}
+}
