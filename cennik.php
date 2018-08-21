@@ -21,21 +21,21 @@
 		<div class="container">
 			<table class="table table-striped">
 				<h2>	Hlavné služby</h2>
-				<thead>
-						<tr class="vecos-table-head">
-								<th>	Služba	</th>
+				<thead class="vecos-table-head">
+						<tr >
+								<th >	Služba	</th>
 								<th>	Cena	</th>
 						</tr>
 				</thead>
-				<tbody>
+				<tbody class="vecos-table-body">
 						<tr>
 								<th>Web stránka - základná <br>
-								<em class="vecos-table-info">	Základné nastavenia - jednostránková prezentačná stránka</em>	</th>
+								<span>základné nastavenia - jednostránková prezentačná stránka</span>	</th>
 								<th>	250,- Eur</th>
 						</tr>
 
 						<tr>
-								<th>Web stránka - štandardná <br> <em class="vecos-table-info"> So všetkými potrebnými prvkami na stránke - ideálne riešenie pre väčšinu malých firiem	</em>	</th>
+								<th>Web stránka - štandardná <br> <span> so všetkými potrebnými prvkami na stránke - ideálne riešenie pre väčšinu malých firiem	</span>	</th>
 								<th>	390,- Eur</th>
 						</tr>
 
@@ -44,7 +44,7 @@
 								<th>	od 590,- Eur</th>
 						</tr>
 						<tr>
-								<th>E-shop - štandardný<br> <em class="vecos-table-info"> Vlastné prostredie pre nahadzovanie produktov - ideálne riešenie pre väčšinu malých firiem	</em> </th>
+								<th>E-shop - štandardný<br> <span> vlastné prostredie pre nahadzovanie produktov - ideálne riešenie pre väčšinu malých firiem	</span> </th>
 								<th>	690,- Eur</th>
 						</tr>
 
@@ -55,7 +55,7 @@
 
 						<tr>
 								<th>Mobilná aplikácia - štandardná <br>
-								<em class="vecos-table-info">Vhodná pre väčšinu malých firiem	</em> </th>
+								<span>vhodná pre väčšinu malých firiem	</span> </th>
 								<th>	790,- Eur</th>
 						</tr>
 						<tr>

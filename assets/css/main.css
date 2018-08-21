@@ -134,15 +134,15 @@ h4 {
   font-weight: 300; }
 
 .btn-primary {
-  background: #4c67ff; }
+  background: #022430; }
 
 .btn-primary:hover {
-  background: #0023e5; }
+  background: black; }
 
 .button {
   display: inline-block;
   color: white;
-  background: #6db8ff;
+  background: #043D56;
   padding: .5rem .75rem;
   font-size: 1.5rem;
   font-weight: 700;
@@ -151,7 +151,7 @@ h4 {
 
 .button:hover {
   color: #cccccc;
-  background: #0786ff; }
+  background: black; }
 
 /*
 -----Sluzby-----
@@ -172,22 +172,20 @@ h4 {
   background: #fbfbfb; }
 
 .blog .card img {
-  width: 100%;
-  height: 10em;
+  text-align: center;
   padding: .25rem;
   color: blue; }
 
 .card {
   margin-bottom: .5rem;
-  height: 361px; }
+  height: 405px; }
 
 .card-img {
-  text-align: center;
-  padding: .5rem 0; }
+  text-align: center; }
 
 .card-img i {
   font-size: 4em;
-  color: #4c67ff; }
+  color: #022430; }
 
 .card-head {
   width: 100%;
@@ -195,14 +193,14 @@ h4 {
   background: red; }
 
 .blog .card-title {
-  color: #4c67ff; }
+  color: #022430; }
 
 .card-title {
   text-align: center; }
 
 .card-footer {
   text-align: center;
-  background: #4c67ff;
+  background: #022430;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   color: white;
@@ -210,7 +208,7 @@ h4 {
   transition: all .75s ease-out; }
 
 .card-footer:hover {
-  background: #0023e5; }
+  background: black; }
 
 .card-link {
   transition: all .75s ease-out; }
@@ -221,13 +219,28 @@ h4 {
 .blog .card-body {
   padding: 1em; }
 
+/*
+SLuzby viac  --spravit mixin
+ */
+.webstranky {
+  background: #5e91ff;
+  display: none; }
+
+.eshopy {
+  background: #5e91ff;
+  display: none; }
+
+.aplikacie {
+  background: #5e91ff;
+  display: none; }
+
 /*Portfolio*/
 .portfolio {
   margin: 3em 0;
   margin-bottom: 0;
   padding: 2rem 0;
   position: relative;
-  background: #6db8ff; }
+  background: #043D56; }
 
 .portfolio h1 {
   color: white;
@@ -241,7 +254,7 @@ h4 {
 .contact-form {
   padding: 6rem;
   position: relative;
-  background: #4c67ff;
+  background: #022430;
   color: white; }
 
 .contact-form h1 {
@@ -268,7 +281,7 @@ h4 {
   border-radius: 3px;
   background: white;
   text-align: center;
-  color: #444eff;
+  color: #00151D;
   box-shadow: 0 0 25px #333; }
 
 .vecos-box:hover {
@@ -291,14 +304,14 @@ h4 {
   background: #333; }
 
 .footer-text {
-  margin: 2rem;
+  margin: 2rem 0;
   color: #ddd; }
 
 /*
 ABOUT -----
  */
 .about {
-  background: #5e91ff;
+  background: #023042;
   padding: 2rem 0;
   color: white; }
   .about h1 {
@@ -317,6 +330,9 @@ ABOUT -----
   bottom: 25%;
   border-right: 2px solid white; }
 
+.modal-header h1 {
+  margin: 0; }
+
 .content-contact {
   max-width: 780px;
   margin: 0 auto; }
@@ -331,11 +347,11 @@ ABOUT -----
 .vecos-cennik {
   background: white; }
   .vecos-cennik h1 {
-    color: #4c67ff;
-    margin: .5rem 0; }
+    color: #022430;
+    margin: 1rem 0; }
 
 .vecos-web {
-  background: #6db8ff;
+  background: #eee;
   padding: 2rem 0; }
   .vecos-web h2 {
     margin: .5rem 0 1rem 0; }
@@ -345,11 +361,17 @@ ABOUT -----
 
 .vecos-table-head {
   text-transform: uppercase;
-  font-size: 1.15rem;
-  padding-left: 3rem !important; }
+  font-size: 1.15rem; }
 
 .vecos-table-info {
   font-size: .9rem; }
+
+.vecos-table-body {
+  text-transform: uppercase; }
+
+.vecos-table-body span {
+  text-transform: none;
+  padding-left: 3rem !important; }
 
 .vecos-dodatok {
   background: white;
@@ -368,7 +390,7 @@ ABOUT -----
     padding: .5rem; }
 
   .card {
-    height: 420px; } }
+    height: 435px; } }
 @media (max-width: 767px) {
   .head {
     height: 480px;
@@ -383,6 +405,9 @@ ABOUT -----
   .vecos-description p {
     font-size: 1.2rem; }
 
+  .card {
+    height: auto; }
+
   .vecos-description {
     top: 5.5rem; }
 
@@ -395,14 +420,12 @@ ABOUT -----
   .blog .card-body {
     padding: 1rem; }
 
-  .card {
-    height: 320px; }
-
   .portfolio img {
     margin: 1rem 0;
     height: auto; } }
 @media (min-width: 576px) {
   .modal-dialog {
-    margin: 5rem auto; } }
+    margin: 6rem auto;
+    max-width: 550px; } }
 
 /*# sourceMappingURL=main.css.map */

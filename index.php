@@ -39,7 +39,7 @@
    <div class="col-md-4 col-lg-4 col-sm-12">
     <div class="card">
      <div class="card-img">
-      <i class="fas fa-globe-africa"></i>
+      <img src="assets/img/webstranky.png" >
 
      </div>
 
@@ -48,12 +48,12 @@
       <ul class="card-text">
 
        <li>Webové prezentácie presne podľa Vaších požiadaviek</li>
-       <li>Pre jednotlivcov aj firmy</li>
-       <li>od 250 Eur,-</li>
+       <li>Vhodné pre jednotlivcov aj firmy</li>
+       <li>do 390 Eur,-</li>
       </ul>
      </div>
      <a href="" class="card-link">
-     <div class="card-footer">
+     <div class="card-footer" id="webstranky">
       ZISTIŤ VIAC
      </div></a>
     </div>
@@ -61,16 +61,16 @@
      <div class="col-md-4 col-lg-4 col-sm-12">
     <div class="card">
      <div class="card-img">
-<i class="fas fa-shopping-cart"></i>
+      <img src="assets/img/e-shop.png" >
      </div>
 
      <div class="card-body">
      <h4 class="card-title">E - shopy</h4>
       <ul class="card-text">
-        <li>S ľahko ovládateľným administračným systémom</li>
+        <li>Ľahko manažovateľné</li>
         <li>
           Vhodné pre malých a stredných podnikateľov</li>
-        <li>od 690 Eur,-</li>
+        <li>do 990 Eur,-</li>
       </ul>
      </div>
     <a href="" class="card-link">
@@ -83,7 +83,7 @@
    <div class="col-md-4 col-lg-4 col-sm-12">
     <div class="card">
      <div class="card-img">
-      <i class="fas fa-code"></i>
+      <img src="assets/img/aplikacie.png" >
      </div>
 
      <div class="card-body">
@@ -91,8 +91,8 @@
       <ul class="card-text">
     <li>Jedna aplikácia pre všetky druhy mobilov
        </li>
-       <li>Posuňte svoje podnikanie na vyššiu úroveň</li>
-       <li>od 790 Eur,-</li>
+       <li>Pre malých a stredných podnikateľov</li>
+       <li>do 1490 Eur,-</li>
       </ul>
      </div>
          <a href="" class="card-link">
@@ -109,7 +109,64 @@
 
 <main>
 
+<!-- SLuzby - viac -->
 
+<div class="webstranky">
+  <div class="container">
+     <div class="row">
+      <div class="col-lg-2 col-md-2 col-sm-12">
+
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-12">
+          <img src="assets/img/webstranky.png" >
+        </div>
+
+        <div class="col-lg-8 col-md-8 col-sm-12">
+          <h2>Web stránky</h2>
+          <p>Tvorba web stránok pre každého</p>
+          <p>suma do 390 Eur,-</p>
+        </div>
+    </div>
+  </div>
+</div>
+
+<div class="eshopy">
+  <div class="container">
+     <div class="row">
+      <div class="col-lg-2 col-md-2 col-sm-12">
+
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-12">
+          <img src="assets/img/eshop.png" >
+        </div>
+
+        <div class="col-lg-8 col-md-8 col-sm-12">
+          <h2>Web stránky</h2>
+          <p>Tvorba Eshopov pre malých a stredných podnikateľov</p>
+          <p>suma od 250 Eur,-</p>
+        </div>
+    </div>
+  </div>
+</div>
+
+<div class="aplikacie">
+  <div class="container">
+     <div class="row">
+      <div class="col-lg-2 col-md-2 col-sm-12">
+
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-12">
+          <img src="assets/img/aplikacie.png" >
+        </div>
+
+        <div class="col-lg-8 col-md-8 col-sm-12">
+          <h2>Web stránky</h2>
+          <p>Tvorba aplikácii</p>
+          <p>suma od 250 Eur,-</p>
+        </div>
+    </div>
+  </div>
+</div>
 
 <!-- portfolio -->
 <div class="portfolio">
@@ -117,13 +174,13 @@
  <div class="container">
   <div class="row">
    <div class="col-lg-4 col-md-6 col-sm-12">
-    <a href=""><img src="assets/img/viptrener.jpg" class="img-fluid"></a>
+    <a href="" data-toggle="modal" data-target="#viptrener"><img src="assets/img/viptrener.jpg" class="img-fluid"></a>
    </div>
    <div class="col-lg-4 col-md-6 col-sm-12">
-    <a href=""><img src="assets/img/davdva.jpg" class="img-fluid"></a>
+    <a href="" data-toggle="modal" data-target="#davdva"><img src="assets/img/davdva.jpg" class="img-fluid"></a>
    </div>
    <div class="col-lg-4 col-md-6 col-sm-12">
-    <a href=""><img src="assets/img/vecos.jpg" class="img-fluid"></a>
+    <a href="" data-toggle="modal" data-target="#vecos-stranka"><img src="assets/img/vecos.jpg" class="img-fluid"></a>
    </div>
   </div>
  </div>
@@ -133,7 +190,7 @@
 <div class="about">
   <div class="container">
     <h1 class="text-center">O NÁS</h1>
-    <h4>Vytvoríme Vám web stránku alebo mobilnú aplikáciu podľa Vaších požiadaviek</h4>
+    <h4 class="text-center">Vytvoríme Vám web stránku alebo mobilnú aplikáciu podľa Vaších požiadaviek</h4>
     <div class="row">
       <div class="col-lg-4 col-md-4 col-sm-12 about-left">
         <div class="about-icon">
@@ -203,7 +260,7 @@
       <div class="modal-body">
         <form>
 
-          <p class="text-center"> Vyplň kontaktný formulár a my sa Vám ozveme do 24 hodín</p>
+          <p class="text-center"> Vyplňte kontaktný formulár a my sa Vám ozveme do 24 hodín</p>
 
           <div class="form-group">
             <input type="text" class="form-control form-control-lg" placeholder="Meno" name="meno">
@@ -217,6 +274,90 @@
           <input type="submit" class="btn btn-secondary btn-block" value="POSLAŤ" name="poslat">
 
         </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="viptrener">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1>VIPFYZIOTRENER.SK</h1>
+        <button type="button" class="close" data-dismiss="modal">
+          <span>&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12">
+            <img src="assets/img/viptrener.jpg" alt="vipfyziotrener.sk">
+          </div>
+          <div class="col-lg-12 col-md-12 col-sm-12">
+            <hr>
+            <ul>
+              <li>Použitá technológia: Wix</li>
+              <li>Typ stránky: E-shop</li>
+              <li><a href="https://www.vipfyziotrener.sk/" target="_blank">URL stránky: www.vipfyziotrener.sk</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="davdva">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1>DAVDVA.SK</h1>
+        <button type="button" class="close" data-dismiss="modal">
+          <span>&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12">
+            <img src="assets/img/davdva.jpg" alt="davdva.sk">
+          </div>
+          <div class="col-lg-12 col-md-12 col-sm-12">
+            <hr>
+            <ul>
+              <li>Použitá technológia: Wordpress</li>
+              <li>Typ stránky: Blog</li>
+              <li><a href="http://www.davdva.sk/" target="_blank">URL stránky: www.davdva.sk</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="vecos-stranka">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1>VECOS.SK</h1>
+        <button type="button" class="close" data-dismiss="modal">
+          <span>&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12">
+            <img src="assets/img/vecos.jpg" alt="davdva.sk">
+          </div>
+          <div class="col-lg-12 col-md-12 col-sm-12">
+            <hr>
+            <ul>
+              <li>Použité technológie: Bootstrap, Sass, JQuery, PHP</li>
+              <li>Typ stránky: štandardná stránka</li>
+              <li><a href="http://www.vecos.sk/" target="_blank">URL stránky: www.vecos.sk</a></li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
   </div>

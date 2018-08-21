@@ -5,7 +5,7 @@
    <div class="row">
     <div class="col-lg-4 col-md-4 col-sm-12">
       <h1>Kontakt</h1>
-      <p> Vyplň kontaktný formulár a my sa Vám ozveme do 24 hodín</p>
+      <p> Vyplňte kontaktný formulár a my sa Vám ozveme do 24 hodín</p>
     </div>
     <div class="col-lg-8 col-md-8 col-sm-12 right">
        <div class="form-group">
@@ -32,7 +32,7 @@
     <div class="row">
       <div class="col-lg-4 col-md-4 col-sm-12 pd-lr-rem">
         <section class="vecos-box">
-      <a href="">
+      <a href="tel:+421918776106">
         <div>
           <i class="fas fa-mobile-alt fa3x"></i>
           <h4>Telefón</h4>
@@ -43,7 +43,7 @@
       </div>
       <div class="col-lg-4 col-md-4 col-sm-12 pd-lr-rem">
         <section class="vecos-box">
-      <a href="">
+      <a href="mailto:info@vecos.sk?" target="_top">
         <div>
           <i class="far fa-envelope"></i>
           <h4>Email</h4>
@@ -58,7 +58,7 @@
         <div>
           <i class="fas fa-mobile-alt fa3x"></i>
           <h4>Skype</h4>
-          <p>0918 776 106</p>
+          <p>Info Vecos</p>
         </div>
       </a>
     </section>
@@ -72,23 +72,31 @@
 </main>
 <footer class="footer-vecos ">
   <div class="container ">
-    <div class="group ">
-    <section class="float-left footer-text">
-      <h3>Fakturačné údaje</h3>
+    <div class="row">
+    <div class="col-lg-4 col-md-4 col-sm-12 footer-text ">
+      <h4>Fakturačné údaje</h4>
       <p>Vecos s.r.o <br>
         IČO:  48 000 931 <br>
         Adresa: Na hore 3, Košice 040 22
        </p>
-    </section>
+    </div>
 
-    <section class="float-right footer-text">
-      <h3>Kontaktné údaje</h3>
+    <div class="col-lg-4 col-md-4 col-sm-12 footer-text ">
+      <h4>Kontaktné údaje</h4>
+        <p>
+        Telefón:  0918 776 106 <br>
+        Email:  info@vecos.sk<br>
+        Skype: Info Vecos
+        </p>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-12 footer-text ">
+      <h4>Podmienky</h4>
       <ul>
-        <li>Telefón:  0918 776 106</li>
-        <li>Email:  info@vecos.sk</li>
-        <li>Skype: TBD</li>
+        <li><a href="">Všeobecné obchodné podmienky</a></li>
+        <li><a href="">Ochrana osobných údajov</a></li>
+        <li><a href="">Reklamačné podmienky</a></li>
       </ul>
-    </section>
+    </div>
     </div>
   </div>
 </footer>

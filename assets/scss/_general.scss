@@ -144,19 +144,18 @@ background: darken($color-main2, 20%);
 }
 
 .blog .card img{
- width: 100%;
- height: 10em;
+text-align: center;
  padding: .25rem;
  color: blue;
 }
 .card {
 	margin-bottom: .5rem;
-	height: 361px;
+	height: 405px;
 }
 
 .card-img {
 	text-align: center;
-	padding: .5rem 0;
+//	padding: .5rem 1.75rem;
 }
 .card-img i {
 	font-size: 4em;
@@ -205,6 +204,24 @@ background: darken($color-main4, 20%);
  padding: 1em;
 }
 
+/*
+SLuzby viac  --spravit mixin
+ */
+
+.webstranky {
+	background: $color-main;
+	display: none;
+}
+
+.eshopy {
+	background: $color-main;
+	display: none;
+}
+
+.aplikacie {
+	background: $color-main;
+	display: none;
+}
 
 /*Portfolio*/
 .portfolio{
@@ -290,10 +307,11 @@ background: darken($main-color,10%);
 
 .footer-vecos {
 	background: $color-bg-footer;
+
 }
 
 .footer-text {
-	margin: 2rem;
+	margin: 2rem 0;
 	color: $color-text-footer;
 }
 
