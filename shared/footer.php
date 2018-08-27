@@ -1,7 +1,7 @@
 <!-- Contact form -->
 <aside class="contact-form" id="contact">
  <div class="container">
-  <form>
+  <form action="shared/data.php" method="post">
    <div class="row">
     <div class="col-lg-4 col-md-4 col-sm-12">
       <h1>Kontakt</h1>
@@ -19,7 +19,7 @@
 
          </textarea>
        </div>
-       <input type="submit" class="btn btn-secondary btn-block" value="POSLAŤ" name="">
+       <input type="submit" class="btn btn-secondary btn-block" value="POSLAŤ" name="poslat">
     </div>
    </div>
   </form>
@@ -27,7 +27,7 @@
 
 <div class="content-contact">
 
-    <h3 class="vecos-contact2 text-center">Alebo nás skontaktujte priamo:</h3>
+    <h4 class="vecos-contact2 text-center">Alebo nás skontaktujte priamo:</h4>
 
     <div class="row">
       <div class="col-lg-4 col-md-4 col-sm-12 pd-lr-rem">
@@ -73,7 +73,7 @@
 <footer class="footer-vecos ">
   <div class="container ">
     <div class="row">
-    <div class="col-lg-4 col-md-4 col-sm-12 footer-text ">
+    <div class="col-lg-6 col-md-6 col-sm-12 footer-text ">
       <h4>Fakturačné údaje</h4>
       <p>Vecos s.r.o <br>
         IČO:  48 000 931 <br>
@@ -81,7 +81,7 @@
        </p>
     </div>
 
-    <div class="col-lg-4 col-md-4 col-sm-12 footer-text ">
+    <div class="col-lg-6 col-md-6 col-sm-12 footer-text ">
       <h4>Kontaktné údaje</h4>
         <p>
         Telefón:  0918 776 106 <br>
@@ -89,15 +89,7 @@
         Skype: Info Vecos
         </p>
     </div>
-    <div class="col-lg-4 col-md-4 col-sm-12 footer-text ">
-      <h4>Podmienky</h4>
-      <ul>
-        <li><a href="">Všeobecné obchodné podmienky</a></li>
-        <li><a href="">Ochrana osobných údajov</a></li>
-        <li><a href="">Reklamačné podmienky</a></li>
-      </ul>
-    </div>
-    </div>
+   </div>
   </div>
 </footer>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

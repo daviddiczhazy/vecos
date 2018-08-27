@@ -30,7 +30,7 @@
 				<tbody class="vecos-table-body">
 						<tr>
 								<th>Web stránka - základná <br>
-								<span>základné nastavenia - jednostránková prezentačná stránka</span>	</th>
+								<span>jednostránková prezentačná stránka</span>	</th>
 								<th>	250,- Eur</th>
 						</tr>
 
@@ -41,7 +41,7 @@
 
 						<tr>
 								<th>Web stránka na mieru </th>
-								<th>	od 590,- Eur</th>
+								<th>	590,- Eur*</th>
 						</tr>
 						<tr>
 								<th>E-shop - štandardný<br> <span> vlastné prostredie pre nahadzovanie produktov - ideálne riešenie pre väčšinu malých firiem	</span> </th>
@@ -50,20 +50,21 @@
 
 						<tr>
 								<th>E-shop na mieru	</th>
-								<th>	od 990,- Eur</th>
+								<th>	990,- Eur*</th>
 						</tr>
 
 						<tr>
 								<th>Mobilná aplikácia - štandardná <br>
 								<span>vhodná pre väčšinu malých firiem	</span> </th>
-								<th>	790,- Eur</th>
+								<th>	990,- Eur</th>
 						</tr>
 						<tr>
 								<th>Aplikácie na mieru </th>
-								<th>	od 1490,- Eur</th>
+								<th>	1490,- Eur*</th>
 						</tr>
 				</tbody>
 			</table>
+			<p class="addendum">* - celková suma závisý od dohody podľa danej zákazky (uvedený je približný priemer)</p>
 		</div>
 	</div>
 
@@ -77,10 +78,14 @@
 								<th>Cena	</th>
 						</tr>
 				</thead>
-				<tbody>
+				<tbody class="vecos-table-body">
 						<tr>
-								<th>Základná správa </th>
+								<th>Základný servis <br><span>Štandardný hosting na 1 rok + štatistiky náštev raz mesačne</span></th>
 								<th>	50,- Eur/rok</th>
+						</tr>
+						<tr>
+								<th>Technický servis <br> <span>Malé zmeny na stránke na požiadanie: textové, farebné alebo iné úpravy (v cene aj základný servis)</span>	</th>
+								<th>	39,- Eur/mesiac</th>
 						</tr>
 						<tr>
 									<th>	Textové úpravy</th>
@@ -95,10 +100,7 @@
 									<th>	250,- Eur</th>
 						</tr>
 
-						<tr>
-								<th>Podpora	</th>
-								<th>	20,- Eur/mesiac</th>
-						</tr>
+
 
 				</tbody>
 			</table>

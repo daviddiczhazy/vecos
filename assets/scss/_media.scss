@@ -7,6 +7,8 @@
 .vecos-description h1 {
 	font-size: 4.5rem;
 }
+
+
 }
 
 @media (max-width: 992px) {
@@ -23,20 +25,20 @@
 @media (max-width: 767px) {
 
 .head {
- height: 480px;
+ //height: 480px;
  background-image: url('../img/responsive-s-upd.jpg');
 }
 
 .overlay {
-	height: 480px;
+//	height: 480px;
 }
 
 .vecos-description h1 {
-	font-size: 3.25rem;
+	font-size: 3.75rem;
 }
 
 .vecos-description p {
-	font-size: 1.2rem;
+	font-size: 1.25rem;
 }
 
 .card {
@@ -44,11 +46,11 @@
 }
 
 .vecos-description {
-	top: 5.5rem;
+	top: 6.5rem;
 }
 
 .btn {
-	font-size: 1rem;
+//	font-size: 1rem;
 }
 
 .about-icon {
@@ -65,7 +67,12 @@
 	margin: 1rem 0;
 	height: auto;
 }
+
+
 }
+
+
+
 
 
 

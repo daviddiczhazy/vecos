@@ -222,18 +222,6 @@ h4 {
 /*
 SLuzby viac  --spravit mixin
  */
-.webstranky {
-  background: #5e91ff;
-  display: none; }
-
-.eshopy {
-  background: #5e91ff;
-  display: none; }
-
-.aplikacie {
-  background: #5e91ff;
-  display: none; }
-
 /*Portfolio*/
 .portfolio {
   margin: 3em 0;
@@ -252,7 +240,7 @@ SLuzby viac  --spravit mixin
   margin: 2rem 0; }
 
 .contact-form {
-  padding: 6rem;
+  padding: 4rem 0 3rem 0;
   position: relative;
   background: #022430;
   color: white; }
@@ -301,7 +289,8 @@ SLuzby viac  --spravit mixin
  footer-vecos
  */
 .footer-vecos {
-  background: #333; }
+  background: #333;
+  padding: 1rem 0; }
 
 .footer-text {
   margin: 2rem 0;
@@ -312,7 +301,7 @@ ABOUT -----
  */
 .about {
   background: #023042;
-  padding: 2rem 0;
+  padding: 3rem 0;
   color: white; }
   .about h1 {
     margin: 0;
@@ -320,7 +309,7 @@ ABOUT -----
   .about h4 {
     padding: 1rem 0; }
   .about .row {
-    margin: 1rem 0; }
+    margin: 1rem 0 0 0; }
 
 .about-icon {
   text-align: center;
@@ -330,7 +319,7 @@ ABOUT -----
   bottom: 25%;
   border-right: 2px solid white; }
 
-.modal-header h1 {
+.modal-header h2 {
   margin: 0; }
 
 .content-contact {
@@ -379,6 +368,10 @@ ABOUT -----
   .vecos-dodatok h2 {
     margin: .5rem 0 1rem 0; }
 
+.addendum {
+  margin-top: 1rem;
+  padding-left: 3.75rem; }
+
 @media (max-width: 1080px) {
   .head {
     background-image: url("../img/responsive-m-upd.jpg"); }
@@ -393,26 +386,19 @@ ABOUT -----
     height: 435px; } }
 @media (max-width: 767px) {
   .head {
-    height: 480px;
     background-image: url("../img/responsive-s-upd.jpg"); }
 
-  .overlay {
-    height: 480px; }
-
   .vecos-description h1 {
-    font-size: 3.25rem; }
+    font-size: 3.75rem; }
 
   .vecos-description p {
-    font-size: 1.2rem; }
+    font-size: 1.25rem; }
 
   .card {
     height: auto; }
 
   .vecos-description {
-    top: 5.5rem; }
-
-  .btn {
-    font-size: 1rem; }
+    top: 6.5rem; }
 
   .about-icon {
     border: none; }
@@ -427,5 +413,18 @@ ABOUT -----
   .modal-dialog {
     margin: 6rem auto;
     max-width: 550px; } }
+.sluzby {
+  background: white;
+  padding: 3rem 0; }
+
+.Aligner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%; }
+
+hr {
+  margin-top: 2rem;
+  margin-bottom: 2rem; }
 
 /*# sourceMappingURL=main.css.map */

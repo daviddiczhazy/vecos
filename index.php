@@ -52,8 +52,8 @@
        <li>do 390 Eur,-</li>
       </ul>
      </div>
-     <a href="" class="card-link">
-     <div class="card-footer" id="webstranky">
+     <a href="sluzby.php#webstranky" class="card-link">
+     <div class="card-footer">
       ZISTIŤ VIAC
      </div></a>
     </div>
@@ -67,13 +67,13 @@
      <div class="card-body">
      <h4 class="card-title">E - shopy</h4>
       <ul class="card-text">
-        <li>Ľahko manažovateľné</li>
+        <li>Ľahko ovládateľné rozhranie</li>
         <li>
           Vhodné pre malých a stredných podnikateľov</li>
         <li>do 990 Eur,-</li>
       </ul>
      </div>
-    <a href="" class="card-link">
+    <a href="sluzby.php#eshopy" class="card-link">
      <div class="card-footer">
       ZISTIŤ VIAC
      </div>
@@ -83,7 +83,7 @@
    <div class="col-md-4 col-lg-4 col-sm-12">
     <div class="card">
      <div class="card-img">
-      <img src="assets/img/aplikacie.png" >
+      <img src="assets/img/APlikacie-m.png" >
      </div>
 
      <div class="card-body">
@@ -95,7 +95,7 @@
        <li>do 1490 Eur,-</li>
       </ul>
      </div>
-         <a href="" class="card-link">
+         <a href="sluzby.php#aplikacie" class="card-link">
      <div class="card-footer">
       ZISTIŤ VIAC
      </div></a>
@@ -111,62 +111,7 @@
 
 <!-- SLuzby - viac -->
 
-<div class="webstranky">
-  <div class="container">
-     <div class="row">
-      <div class="col-lg-2 col-md-2 col-sm-12">
 
-        </div>
-        <div class="col-lg-2 col-md-2 col-sm-12">
-          <img src="assets/img/webstranky.png" >
-        </div>
-
-        <div class="col-lg-8 col-md-8 col-sm-12">
-          <h2>Web stránky</h2>
-          <p>Tvorba web stránok pre každého</p>
-          <p>suma do 390 Eur,-</p>
-        </div>
-    </div>
-  </div>
-</div>
-
-<div class="eshopy">
-  <div class="container">
-     <div class="row">
-      <div class="col-lg-2 col-md-2 col-sm-12">
-
-        </div>
-        <div class="col-lg-2 col-md-2 col-sm-12">
-          <img src="assets/img/eshop.png" >
-        </div>
-
-        <div class="col-lg-8 col-md-8 col-sm-12">
-          <h2>Web stránky</h2>
-          <p>Tvorba Eshopov pre malých a stredných podnikateľov</p>
-          <p>suma od 250 Eur,-</p>
-        </div>
-    </div>
-  </div>
-</div>
-
-<div class="aplikacie">
-  <div class="container">
-     <div class="row">
-      <div class="col-lg-2 col-md-2 col-sm-12">
-
-        </div>
-        <div class="col-lg-2 col-md-2 col-sm-12">
-          <img src="assets/img/aplikacie.png" >
-        </div>
-
-        <div class="col-lg-8 col-md-8 col-sm-12">
-          <h2>Web stránky</h2>
-          <p>Tvorba aplikácii</p>
-          <p>suma od 250 Eur,-</p>
-        </div>
-    </div>
-  </div>
-</div>
 
 <!-- portfolio -->
 <div class="portfolio">
@@ -283,7 +228,7 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h1>VIPFYZIOTRENER.SK</h1>
+        <h2>VIPFYZIOTRENER.SK</h2>
         <button type="button" class="close" data-dismiss="modal">
           <span>&times;</span>
         </button>
@@ -311,7 +256,7 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h1>DAVDVA.SK</h1>
+        <h2>DAVDVA.SK</h2>
         <button type="button" class="close" data-dismiss="modal">
           <span>&times;</span>
         </button>
